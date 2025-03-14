@@ -17,7 +17,6 @@ services:
       SAVE_CHALLENGE_SCREENSHOTS: "true"
     container_name: flare-bypasser
     image: flare-bypasser:latest
-    ip:"192.168.10.40"
     ports:
       - 8190:8190
     #volumes:
